@@ -1,0 +1,49 @@
+.navbar-brand {
+    background-color: teal;
+    padding: 10px;
+}
+
+#bananas {
+    background: url("../images/bananas.png");
+}
+
+#aboutMe {
+    background-color: white;
+    padding: 20px;
+}
+
+#footer {
+    background-color: teal;
+}
+
+#Copyright {
+    text-align: center;
+    color: white;
+}
+
+.nav-link1 {
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
+    text-decoration : none;
+}
+
+.nav-link2 {
+    border-right: 1px solid #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration : none;
+}
+
+.nav-link3 {
+    padding-left: 10px;
+    text-decoration : none;
+}
+
+.navbar-nav {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nounderline {
+    text-decoration: none !important
+  }
