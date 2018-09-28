@@ -1,6 +1,17 @@
 .navbar-brand {
     background-color: teal;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 0px;
+}
+
+.navbar, .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    border-top: 0px;
+    padding-top: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 #bananas {
@@ -26,6 +37,57 @@
     font-size: 12px;
     top: 15px;
 }
+
+/* portfolio page */
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+.portfolio {
+    width: 25%;
+    padding: 20px;
+    position: relative;
+    left: 60px;
+}
+
+/* END PORTFOLIO */
 
 /* .bg-light {
     max-width: 960px;
