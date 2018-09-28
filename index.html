@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -17,23 +18,18 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <div class="container">
-            <a class="navbar-brand" href="#" style="color: white; border-bottom: 1px; margin-bottom:">Case Griffiths</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#" style="color: #fff; border-bottom: 3px; border-color: #ddd;">Case
+                Griffiths</a>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div id="navbarSupportedContent">
                 <div class="container"></div>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link1" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link2" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="nav-link3" href="contact.html">Contact</a>
-                    </li>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a class="nav-link potato1" href="index.html">About</a>
+                        <a class="nav-link potato2" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link potato3" href="contact.html">Contact</a>
+                    </div>
+                </div>
                 </ul>
             </div>
     </nav>
@@ -51,15 +47,22 @@
                 <div class="col-sm-12">
                     <h5>About Me</h5>
                     <hr style="width: 100%">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quae soluta maxime earum pariatur
-                        totam, dolorum doloremque aspernatur nesciunt eaque quas dolorem harum ea dolores voluptates,
-                        ab error beatae aliquam!</p>
                 </div>
-                <div class="col-sm-3">
-
-                </div>
-                <div class="col-sm-3">
-
+                <div class="col-sm-12">
+                    <img id="aboutMeImg" src="assets/images/case.JPG" alt="case">
+                    <p>My name is Case Griffiths. I am originally from La Jolla California which is a small surfing
+                        town North West of San Diego. I moved to Berkeley on Scholarship to the University of
+                        California where I received my Bachelors in Digital Media, after which I moved to Portland,
+                        Oregon where I live now with my girlfriend Jeanelle and our beagle puppy Harley.</p>
+                    <p>I have been working in technology for my entire life. I started by building my first computer at
+                        age 9. It was a broken Windows PC that my mom said I could have if I could fix it. I tinkered
+                        with it for days and eventually surmised that it was the video card that was broken. I asked my
+                        mom for a new video card and it was my only Christmas present in 1996. It worked. That moment
+                        would mark the beginning of a life long passion for tech.</p>
+                    <p>Today, I have worked for some of the world's premier technology companies, such as Sony,
+                        Qualcomm, Apple, and Salesforce. I work on PCs, Macs, and Linux. I am a certified Apple repair
+                        tech, and now I work at marketing technology start ups in Downtown Portland, the most recent
+                        being my current employer, Opal Labs.</p>
                 </div>
             </div>
         </div>
@@ -68,9 +71,11 @@
     <div class="container">
         <div class="row" id="space" style="margin-bottom: 30px;"></div>
     </div>
+    
+        
 
     <footer>
-        <div class="conatiner" id="footer">
+        <div class="fixed-bottom" id="footer">
             <div class="row">
                 <div class="col-sm-12" id="Copyright">
                     <p> Copyright (c) </p>

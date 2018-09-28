@@ -10,33 +10,48 @@
 #aboutMe {
     background-color: white;
     padding: 20px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
 }
 
 #footer {
-    background-color: teal;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
 }
 
 #Copyright {
     text-align: center;
-    color: white;
+    color: #fff;
+    font-size: 12px;
+    top: 15px;
 }
 
-.nav-link1 {
+/* .bg-light {
+    max-width: 960px;
+    width: 1000%;
+} */
+
+.potato1 {
     border-right: 1px solid #cccccc;
     padding-right: 10px;
     text-decoration : none;
 }
 
-.nav-link2 {
+.potato2 {
     border-right: 1px solid #cccccc;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration : none;
 }
 
-.nav-link3 {
+.potato3 {
     padding-left: 10px;
     text-decoration : none;
+}
+
+.nav-link {
+    float: left;
 }
 
 .navbar-nav {
@@ -44,6 +59,69 @@
     padding-right: 5px;
 }
 
+.navbar-nav li {
+    float: right;
+}
+
 .nounderline {
     text-decoration: none !important
+  }
+
+  #aboutMeImg {
+   width: 30%; 
+   float: left; 
+   padding-top: 0px; 
+   padding-right: 12px; 
+   padding-bottom: 12px; 
+   padding-left: 0px;
+   border: 10px color black;
+  }
+/* 
+  @media only screen and (max-width: 600px) {
+    .nav-link1, .nav-link2, .nav-link3 {
+       
+    }
+} */
+
+/* MOBILE VERSIONS */
+
+@media only screen and (max-width: 640px) {
+    .navbar-brand, .nav-link {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        
+    }
+    
+    #aboutMeImg {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .navbar-nav li {
+        width: 50%;
+    }
+
+    .nav-link {
+        float: none;
+        width: 100%;
+    }
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    [class*="col-"] {
+        width: 100%;
+    }
   }
