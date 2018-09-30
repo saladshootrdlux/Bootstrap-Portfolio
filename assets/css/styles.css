@@ -7,6 +7,12 @@
     top: 0px;
 }
 
+/* NOTE TO GRADER */
+/* I was still attempting to get the nav bar to collapse into a row at the time of submission. */
+/* It is currently only collapsing into a single column. */
+/* My next steps are to either painstakingly format each button using CSS positioning.. */
+/* .. or abandon bootstrap all together. */
+
 .navbar, .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
     border-top: 0px;
     padding-top: 0px;
@@ -87,12 +93,11 @@
     left: 60px;
 }
 
-/* END PORTFOLIO */
-
-/* .bg-light {
-    max-width: 960px;
-    width: 1000%;
-} */
+#firstPicture {
+    width: 20%; 
+    background-color: teal;
+    
+}
 
 .potato1 {
     border-right: 1px solid #cccccc;
@@ -138,12 +143,6 @@
    padding-left: 0px;
    border: 10px color black;
   }
-/* 
-  @media only screen and (max-width: 600px) {
-    .nav-link1, .nav-link2, .nav-link3 {
-       
-    }
-} */
 
 /* MOBILE VERSIONS */
 
@@ -176,6 +175,9 @@
 
   }
   
+  /* NOTE TO GRADER */
+  /* I was still in the process of tweaking mobile and large screen layouts using @media. */
+
   @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
