@@ -7,3 +7,7 @@ Case's basic public portfolio page.
 <p align="center">Take a look at my website, <a href="https://www.casegriffiths.com">CaseGriffiths.com</a></p>
 <p align="center">Check out my <a href="https://saladshootrdlux.github.io/Bootstrap-Portfolio/">GitHub Portfolio</a></p>
 <p align="center">
+  
+## Overview
+
+This page houses the code for my GitHub Pages hosted Bootstrap portfolio. Feel free to take a look around or follow any of the links above.
