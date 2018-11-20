@@ -6,6 +6,6 @@ Case's basic public portfolio page.
 <p align="center"><a href="https://www.linkedin.com/in/case-griffiths-93838426/">LinkedIn</a></p><br>
 <p align="center">Website: <a href="https://www.casegriffiths.com">CaseGriffiths(.com)</a></p><br>
 
-<p align="center">Live preview: <a href="">Portfolio Website</a></p><br>
+<p align="center"><a href="https://saladshootrdlux.github.io/Bootstrap-Portfolio/">GitHub Portfolio</a></p><br>
 <p align="center">
 <img src="">
